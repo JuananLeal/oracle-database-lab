@@ -6,7 +6,13 @@
 ## Commit messages
 This project follows Conventional Commits:
 <type>(scope): <description>
-Common types: feat, fix, docs, test, refactor, perf, build, ci, chore
+Common types: feat, fix, docs, test, refactor, perf, build, ci, chore, security
+
+Note: The `(scope)` is optional.
+
+Examples:
+- `docs: update contribution guidelines`
+- `docs(readme): fix contribution link`
 
 ## Pull Requests
 Every change must go through a Pull Request with at least one approval before merging into main.
